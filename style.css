@@ -8,7 +8,7 @@ body {
 
 .welcome_carpet {
     height:500%;
-    background-image: url('/assets/wp7112623-star-trek-space-dive-wallpapers.jpg');
+    background-image: url('assets/wp7112623-star-trek-space-dive-wallpapers.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%
 }
@@ -72,7 +72,7 @@ memberemail {
 
 footer  {
     flex-grow: 1;
-    background-image: url('/assets/intro-1683219846.webp');
+    background-image: url('assets/intro-1683219846.webp');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: 22em;
