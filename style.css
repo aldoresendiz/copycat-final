@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    color:ghostwhite;
+    background-color: black;
+}
+
+.welcome_carpet {
+    height:500%;
+    background-image: url('/assets/wp7112623-star-trek-space-dive-wallpapers.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+table_container {
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.td_trekflix {
+    width:85%;
+}
+.st_logo {
+    height:100px; width:178px
+}
+
+.trekflix {
+    font-size: 20px;
+    width: 10rem;
+}
+
+.st_logo {
+    height:100px;
+    width:178px;
+}
+
+.signin {
+    width:100px;
+    align-items: center;
+}
+
+#unlimited {
+    color:white;
+    font-size:50px;
+    font-weight: bold;
+    text-align:center;
+    margin-top:240px;
+}
+
+#watchanywhere {
+    color:white;
+    font-size:30px;
+    font-weight: bold;
+    text-align:center;
+    margin-top:2px;
+}
+
+memberemail {
+    margin-left: 45%;
+}
+
+.container2 {
+    display: flex;
+    min-height: 30vh;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5em;
+    box-shadow: 13px 4px darkgray;
+}
+
+footer  {
+    flex-grow: 1;
+    background-image: url('/assets/intro-1683219846.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 22em;
+    text-align: center;
+    width:50%;
+  }
+  
+  main {
+    padding-top:45px;
+    flex-grow:2;
+    text-align: center;
+    font-size:60px;
+    font-weight:bolder;
+    width:50%;
+  }
+
+main > p {
+    font-size:20px;
+ }
+
+.container3 {
+    display: flex;
+    min-height: 30vh;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:5em;
+    box-shadow: 13px 4px darkgray;
+}
+
+footer3 {
+    flex-grow: 3;
+    text-align: center;
+    width:50%;
+  }
+  
+  main3 {
+    padding-top:45px;
+    flex-grow:2;
+    text-align: center;
+    font-size:60px;
+    font-weight:bolder;
+    width:50%;
+  }
+
+  main3 > p {
+    font-size:20px;
+  }
+
+
+.container4 {
+    padding-top:1px;
+    text-align: center;
+    font-size:60px;
+    font-weight:bolder;
+    width:100%;
+    margin-top:2em;
+    box-shadow: 13px 4px darkgray;
+    height:7em;
+}
+
+.accordion-item, .accordion-button {
+    font-size:15px;
+    background-color: darkgray;
+}
+
+
+.container5 {
+    padding-top:1px;    
+    font-size:20px;
+    margin-left:30em;
+    margin-top:2em;
+    box-shadow: 13px 4px darkgray;
+    height:20em;
+}
+
+li {
+  list-style-type:none;  
+}
+
+a {
+    color: darkgray;
+}
